@@ -5,5 +5,7 @@ export const ToDoDiv = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    span {
+        color: greenyellow;
+    }
 `;
