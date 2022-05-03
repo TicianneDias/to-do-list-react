@@ -1,5 +1,6 @@
-import GlobalStyle from "../Style/GlobalStyle.jsx"
-import Header from "./components/Header/Header.jsx"
+import Header from "./components/Header/Header"
+import ToDoList from "./components/ToDoList/ToDoList"
+import GlobalStyle from './Style/GlobalStyle'
 
 function App() {
 
@@ -7,7 +8,7 @@ function App() {
     <div>
       <GlobalStyle/>
       <Header/>
-      <h1>To.Do List</h1>
+      <ToDoList/>
     </div>
   )
 }
