@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import ToDoForm from '../ToDoForm/ToDoForm';
 import { CgCloseR } from 'react-icons/cg';
 import { FaEdit } from 'react-icons/fa';
+import {CompleteToDo} from '../ToDo/style'
 
 const ToDo = ({ todos, completeTodo, removeTodo, updateTodo }) => {
   const [edit, setEdit] = useState({
@@ -22,8 +23,8 @@ const ToDo = ({ todos, completeTodo, removeTodo, updateTodo }) => {
   }
 
   return todos.map((todo, index) => (
-    <div
-      className={todo.isComplete ? 'todo-row complete' : 'todo-row'}
+    <CompleteToDo
+      className={todo.isComplete}
       key={index}
     >
       <div key={todo.id} onClick={() => completeTodo(todo.id)}>
@@ -36,10 +37,9 @@ const ToDo = ({ todos, completeTodo, removeTodo, updateTodo }) => {
         />
         <FaEdit
           onClick={() => setEdit({ id: todo.id, value: todo.text })}
-          className='edit-icon'
         />
       </div>
-    </div>
+    </CompleteToDo>
   ));
 };
 

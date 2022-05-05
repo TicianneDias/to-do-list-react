@@ -13,7 +13,7 @@
 
 ## 🎞 Demo: <a id="demo"></a>
 <div align="center" style="padding:30px">
-   🚧 Em construção 🚧
+   <img alt="Demonstração do site, acrescentando tarefa, deletando, atualizando" src="page.gif" style="width:600px">
 </div>
 
 <br> <br> <br>
@@ -23,7 +23,7 @@
 <br> <br> <br>
 
 ## 💡 Sobre: <a id="sobre"></a>
-🚧 Em construção 🚧
+Projeto desenvolvido para listar as tarefas a serem realizadas pelo usuário, podendo deletar, atualizar e acrescentar as tarefas.
 
 <br> <br> <br>
 
@@ -33,8 +33,12 @@
 
 ## 💻 Tecnologias: <a id="tecnologias"></a>
 <ul>
-    🚧 Em construção 🚧
+    <li>React.js</li>
+    <li>React Hooks: useState, useEffect, UseRef</li>
+    <li>Styled-Components</li>
+    <li>Map</li>
 </ul>
+Para o futuro: acrescentar banco de dados;
 
 <br> <br> <br>
 
