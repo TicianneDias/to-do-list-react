@@ -44,7 +44,7 @@ const ToDoList = () => {
   return (
       
     <ToDoDiv>
-        <h1>What do you want To<span>.</span>Do today?</h1>
+        <h1>What Do You Want To<span>.</span>Do Today?</h1>
         <ToDoForm onSubmit={addTodo} />
         <ToDo 
           todos={todos}
