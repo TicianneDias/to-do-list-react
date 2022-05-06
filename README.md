@@ -38,7 +38,7 @@ Projeto desenvolvido para listar as tarefas a serem realizadas pelo usuário, po
     <li>Styled-Components</li>
     <li>Map</li>
 </ul>
-Para o futuro: acrescentar banco de dados;
+Para o futuro: acrescentar localStorage;
 
 <br> <br> <br>
 
