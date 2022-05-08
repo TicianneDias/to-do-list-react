@@ -24,6 +24,8 @@
 
 ## 💡 Sobre: <a id="sobre"></a>
 Projeto desenvolvido para listar as tarefas a serem realizadas pelo usuário, podendo deletar, atualizar e acrescentar as tarefas.
+<br>
+Para conhecer <a href='https://meek-empanada-7d9e2e.netlify.app/'>clique aqui</a>.
 
 <br> <br> <br>
 
